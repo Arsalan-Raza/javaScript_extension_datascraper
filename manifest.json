@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "willsmithisMyLife",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://mobilemall.pk/prices/huawei-mobiles"],
+      "js": ["jquery-3.6.0.min.js", "FileSaver.js", "content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "Popup.html",
+    "default_title": "will smith"
+  }
+}
